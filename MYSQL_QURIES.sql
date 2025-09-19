@@ -134,4 +134,4 @@ LEFT JOIN show_details sd ON t.id = sd.theatres_id
 LEFT JOIN movies m ON sd.movie_id = m.id
 LEFT JOIN languages l ON sd.language_id = l.id
 WHERE t.id = 1
-  AND DATE(sd.start_time) = Date("2025-09-20");
+  AND DATE(sd.start_time) = Date("2025-09-20"); 
